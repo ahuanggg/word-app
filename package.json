@@ -2,16 +2,25 @@
   "name": "word-app",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "unirest": "^0.6.0"
+  },
+  "devDependencies": {},
   "scripts": {
-    "start": "node ./server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahuanggg/word-app.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "unirest": "^0.6.0"
-  }
+  "bugs": {
+    "url": "https://github.com/ahuanggg/word-app/issues"
+  },
+  "homepage": "https://github.com/ahuanggg/word-app#readme"
 }
